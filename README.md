@@ -2,7 +2,9 @@
 
 [Open the public fast test](https://slothmahn.github.io/forge-test/)
 
-This is an accelerated alpha on Robinhood Chain **Testnet** (chain ID 46630). It uses test ETH and mock FUEL, MORE, and cbBTC. The burn engines model conversions; they do not trade on a market. The app and contracts are unaudited and are not for real assets.
+This is an accelerated alpha on Robinhood Chain **Testnet** (chain ID 46630). It uses test ETH and mock FUEL, MORE, PAMP, and cbBTC. Forge position fees route 33% to the FUEL burn pool, 20% to MORE, 5% to PAMP, and 1% to the development wallet. The burn engines use ten-second intervals and model conversions; they do not trade on a market. The app and contracts are unaudited and are not for real assets.
+
+The current Foundry NFT mint fee is determined by the test oracle, with a 0.001–0.01 test ETH range. One percent goes to the development wallet and 99% funds mock cbBTC rewards. This deployment has new contracts, so positions and NFTs from the previous fast test remain in the older contracts.
 
 Use a brand-new test-only wallet. Never enter a private key or seed phrase on the site. Wallet actions require your own confirmation.
 
